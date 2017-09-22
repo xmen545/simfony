@@ -20,7 +20,7 @@ class DefaultController extends Controller
     }
     public function newsAction($lang){
         
-        die('News Action is work! My lang is: <b>'.$lang.'</b>');  
+        die('News Action is work! My lang is: <b>'.$lang.'</b>');   
     }
     public function newsWithLangAction($lang){
         

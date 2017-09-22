@@ -1,0 +1,32 @@
+[19-Sep-2017 16:32:25 UTC] PHP Fatal error:  Class 'Vakancii\VakanciiBundle\VakanciiBundle' not found in /home/ubuntu/workspace/my_project_name/app/AppKernel.php on line 19
+[19-Sep-2017 16:32:25 UTC] PHP Stack trace:
+[19-Sep-2017 16:32:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/bin/console:0
+[19-Sep-2017 16:32:25 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/my_project_name/bin/console:27
+[19-Sep-2017 16:32:25 UTC] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:125
+[19-Sep-2017 16:32:25 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:69
+[19-Sep-2017 16:32:25 UTC] PHP   5. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:116
+[19-Sep-2017 16:32:25 UTC] PHP   6. AppKernel->registerBundles() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:450
+[19-Sep-2017 16:33:05 UTC] PHP Fatal error:  Class 'Vakancii\VakanciiBundle\VakanciiBundle' not found in /home/ubuntu/workspace/my_project_name/app/AppKernel.php on line 19
+[19-Sep-2017 16:33:05 UTC] PHP Stack trace:
+[19-Sep-2017 16:33:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/bin/console:0
+[19-Sep-2017 16:33:05 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/my_project_name/bin/console:27
+[19-Sep-2017 16:33:05 UTC] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:125
+[19-Sep-2017 16:33:05 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:69
+[19-Sep-2017 16:33:05 UTC] PHP   5. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:116
+[19-Sep-2017 16:33:05 UTC] PHP   6. AppKernel->registerBundles() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:450
+[19-Sep-2017 16:33:38 UTC] PHP Fatal error:  Class 'Vakancii\VakanciiBundle\VakanciiBundle' not found in /home/ubuntu/workspace/my_project_name/app/AppKernel.php on line 19
+[19-Sep-2017 16:33:38 UTC] PHP Stack trace:
+[19-Sep-2017 16:33:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/bin/console:0
+[19-Sep-2017 16:33:38 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/my_project_name/bin/console:27
+[19-Sep-2017 16:33:38 UTC] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:125
+[19-Sep-2017 16:33:38 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:69
+[19-Sep-2017 16:33:38 UTC] PHP   5. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:116
+[19-Sep-2017 16:33:38 UTC] PHP   6. AppKernel->registerBundles() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:450
+[19-Sep-2017 17:26:20 UTC] PHP Fatal error:  Class 'Vakancy\AppBundle\VakancyAppBundle' not found in /home/ubuntu/workspace/my_project_name/app/AppKernel.php on line 19
+[19-Sep-2017 17:26:20 UTC] PHP Stack trace:
+[19-Sep-2017 17:26:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/bin/console:0
+[19-Sep-2017 17:26:20 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/my_project_name/bin/console:27
+[19-Sep-2017 17:26:20 UTC] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:125
+[19-Sep-2017 17:26:20 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:69
+[19-Sep-2017 17:26:20 UTC] PHP   5. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:116
+[19-Sep-2017 17:26:20 UTC] PHP   6. AppKernel->registerBundles() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:450
