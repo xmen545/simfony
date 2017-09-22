@@ -1,0 +1,162 @@
+[19-Sep-2017 17:00:36 UTC] PHP Warning:  include_once(/home/ubuntu/workspace/my_project_name/var/bootstrap.php.cache): failed to open stream: No such file or directory in /home/ubuntu/workspace/my_project_name/web/app.php on line 7
+[19-Sep-2017 17:00:36 UTC] PHP Stack trace:
+[19-Sep-2017 17:00:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/web/app.php:0
+[19-Sep-2017 17:00:36 UTC] PHP Warning:  include_once(): Failed opening '/home/ubuntu/workspace/my_project_name/var/bootstrap.php.cache' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/my_project_name/web/app.php on line 7
+[19-Sep-2017 17:00:36 UTC] PHP Stack trace:
+[19-Sep-2017 17:00:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/web/app.php:0
+[19-Sep-2017 17:00:36 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\Config\Exception\FileLocatorFileNotFoundException' with message 'The file "parameters.yml" does not exist (in: /home/ubuntu/workspace/my_project_name/app/config).' in /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/FileLocator.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Config/FileLocator.php(54): Symfony\Component\Config\FileLocator->locate('parameters.yml', '/home/ubuntu/wo...', false)
+#1 /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Loader/FileLoader.php(147): Symfony\Component\HttpKernel\Config\FileLocator->locate('parameters.yml', '/home/ubuntu/wo...', false)
+#2 /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Loader/FileLoader.php(101): Symfony\Component\Config\Loader\FileLoader->doImport('parameters.yml', NULL, false, '/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace in /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Loader/FileLoader.php on line 179
+[19-Sep-2017 17:24:33 UTC] PHP Fatal error:  Class 'Vakancy\AppBundle\VakancyAppBundle' not found in /home/ubuntu/workspace/my_project_name/app/AppKernel.php on line 19
+[19-Sep-2017 17:24:33 UTC] PHP Stack trace:
+[19-Sep-2017 17:24:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/web/app.php:0
+[19-Sep-2017 17:24:33 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/my_project_name/web/app.php:19
+[19-Sep-2017 17:24:33 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[19-Sep-2017 17:24:33 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:116
+[19-Sep-2017 17:24:33 UTC] PHP   5. AppKernel->registerBundles() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:450
+[19-Sep-2017 17:26:36 UTC] PHP Fatal error:  Class 'Vakancy\AppBundle\VakancyAppBundle' not found in /home/ubuntu/workspace/my_project_name/app/AppKernel.php on line 19
+[19-Sep-2017 17:26:36 UTC] PHP Stack trace:
+[19-Sep-2017 17:26:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/web/app.php:0
+[19-Sep-2017 17:26:36 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/my_project_name/web/app.php:19
+[19-Sep-2017 17:26:36 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[19-Sep-2017 17:26:36 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:116
+[19-Sep-2017 17:26:36 UTC] PHP   5. AppKernel->registerBundles() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:450
+[20-Sep-2017 17:29:33 UTC] PHP Fatal error:  Cannot re-assign $this in /home/ubuntu/workspace/my_project_name/src/AppBundle/Controller/DefaultController.php on line 25
+[20-Sep-2017 17:29:33 UTC] PHP Stack trace:
+[20-Sep-2017 17:29:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/web/app.php:0
+[20-Sep-2017 17:29:33 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/my_project_name/web/app.php:22
+[20-Sep-2017 17:29:33 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[20-Sep-2017 17:29:33 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:119
+[20-Sep-2017 17:29:33 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:540
+[20-Sep-2017 17:29:33 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:3016
+[20-Sep-2017 17:29:33 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:2966
+[20-Sep-2017 17:29:33 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[20-Sep-2017 17:29:33 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[20-Sep-2017 17:29:33 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[20-Sep-2017 17:29:33 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[20-Sep-2017 17:29:33 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[20-Sep-2017 17:29:33 UTC] PHP Fatal error:  Cannot re-assign $this in /home/ubuntu/workspace/my_project_name/src/AppBundle/Controller/DefaultController.php on line 25
+[20-Sep-2017 17:29:33 UTC] PHP Stack trace:
+[20-Sep-2017 17:29:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/web/app.php:0
+[20-Sep-2017 17:29:33 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/my_project_name/web/app.php:22
+[20-Sep-2017 17:29:33 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[20-Sep-2017 17:29:33 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:119
+[20-Sep-2017 17:29:33 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:540
+[20-Sep-2017 17:29:33 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:3016
+[20-Sep-2017 17:29:33 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:2966
+[20-Sep-2017 17:29:33 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[20-Sep-2017 17:29:33 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[20-Sep-2017 17:29:33 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[20-Sep-2017 17:29:33 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[20-Sep-2017 17:29:33 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[20-Sep-2017 17:30:03 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _GET in /home/ubuntu/workspace/my_project_name/src/AppBundle/Controller/DefaultController.php on line 25
+[20-Sep-2017 17:30:03 UTC] PHP Stack trace:
+[20-Sep-2017 17:30:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/web/app.php:0
+[20-Sep-2017 17:30:03 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/my_project_name/web/app.php:22
+[20-Sep-2017 17:30:03 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[20-Sep-2017 17:30:03 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:119
+[20-Sep-2017 17:30:03 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:540
+[20-Sep-2017 17:30:03 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:3016
+[20-Sep-2017 17:30:03 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:2966
+[20-Sep-2017 17:30:03 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[20-Sep-2017 17:30:03 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[20-Sep-2017 17:30:03 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[20-Sep-2017 17:30:03 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[20-Sep-2017 17:30:03 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[20-Sep-2017 17:30:24 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/my_project_name/src/AppBundle/Controller/DefaultController.php on line 27
+[20-Sep-2017 17:30:24 UTC] PHP Stack trace:
+[20-Sep-2017 17:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/web/app.php:0
+[20-Sep-2017 17:30:24 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/my_project_name/web/app.php:22
+[20-Sep-2017 17:30:24 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[20-Sep-2017 17:30:24 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:119
+[20-Sep-2017 17:30:24 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:540
+[20-Sep-2017 17:30:24 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:3016
+[20-Sep-2017 17:30:24 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:2966
+[20-Sep-2017 17:30:24 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[20-Sep-2017 17:30:24 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[20-Sep-2017 17:30:24 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[20-Sep-2017 17:30:24 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[20-Sep-2017 17:30:24 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[20-Sep-2017 17:30:26 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/my_project_name/src/AppBundle/Controller/DefaultController.php on line 27
+[20-Sep-2017 17:30:26 UTC] PHP Stack trace:
+[20-Sep-2017 17:30:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/web/app.php:0
+[20-Sep-2017 17:30:26 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/my_project_name/web/app.php:22
+[20-Sep-2017 17:30:26 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[20-Sep-2017 17:30:26 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:119
+[20-Sep-2017 17:30:26 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:540
+[20-Sep-2017 17:30:26 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:3016
+[20-Sep-2017 17:30:26 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:2966
+[20-Sep-2017 17:30:26 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[20-Sep-2017 17:30:26 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[20-Sep-2017 17:30:26 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[20-Sep-2017 17:30:26 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[20-Sep-2017 17:30:26 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[22-Sep-2017 19:05:39 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/my_project_name/src/AppBundle/Controller/DefaultController.php on line 35
+[22-Sep-2017 19:05:39 UTC] PHP Stack trace:
+[22-Sep-2017 19:05:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/web/app.php:0
+[22-Sep-2017 19:05:39 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/my_project_name/web/app.php:22
+[22-Sep-2017 19:05:39 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[22-Sep-2017 19:05:39 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:119
+[22-Sep-2017 19:05:39 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:540
+[22-Sep-2017 19:05:39 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:3016
+[22-Sep-2017 19:05:39 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:2966
+[22-Sep-2017 19:05:39 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[22-Sep-2017 19:05:39 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[22-Sep-2017 19:05:39 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[22-Sep-2017 19:05:39 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[22-Sep-2017 19:05:39 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[22-Sep-2017 19:05:44 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/my_project_name/src/AppBundle/Controller/DefaultController.php on line 35
+[22-Sep-2017 19:05:44 UTC] PHP Stack trace:
+[22-Sep-2017 19:05:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/web/app.php:0
+[22-Sep-2017 19:05:44 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/my_project_name/web/app.php:22
+[22-Sep-2017 19:05:44 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[22-Sep-2017 19:05:44 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:119
+[22-Sep-2017 19:05:44 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:540
+[22-Sep-2017 19:05:44 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:3016
+[22-Sep-2017 19:05:44 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:2966
+[22-Sep-2017 19:05:44 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[22-Sep-2017 19:05:44 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[22-Sep-2017 19:05:44 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[22-Sep-2017 19:05:44 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[22-Sep-2017 19:05:44 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[22-Sep-2017 19:23:31 UTC] PHP Fatal error:  Call to undefined method Symfony\Component\HttpFoundation\Request::getParameter() in /home/ubuntu/workspace/my_project_name/src/AppBundle/Controller/DefaultController.php on line 33
+[22-Sep-2017 19:23:31 UTC] PHP Stack trace:
+[22-Sep-2017 19:23:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/web/app.php:0
+[22-Sep-2017 19:23:31 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/my_project_name/web/app.php:22
+[22-Sep-2017 19:23:31 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[22-Sep-2017 19:23:31 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:4446
+[22-Sep-2017 19:23:31 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:4491}() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:4491
+[22-Sep-2017 19:23:31 UTC] PHP   6. AppBundle\Controller\DefaultController->articleGetAction() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:4491
+[22-Sep-2017 19:23:48 UTC] PHP Fatal error:  Call to undefined method Symfony\Component\HttpFoundation\Request::getParameter() in /home/ubuntu/workspace/my_project_name/src/AppBundle/Controller/DefaultController.php on line 33
+[22-Sep-2017 19:23:48 UTC] PHP Stack trace:
+[22-Sep-2017 19:23:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/web/app.php:0
+[22-Sep-2017 19:23:48 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/my_project_name/web/app.php:22
+[22-Sep-2017 19:23:48 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[22-Sep-2017 19:23:48 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:4446
+[22-Sep-2017 19:23:48 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:4491}() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:4491
+[22-Sep-2017 19:23:48 UTC] PHP   6. AppBundle\Controller\DefaultController->articleGetAction() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:4491
+[22-Sep-2017 19:24:36 UTC] PHP Fatal error:  Call to undefined method Symfony\Component\HttpFoundation\Request::getParameter() in /home/ubuntu/workspace/my_project_name/src/AppBundle/Controller/DefaultController.php on line 33
+[22-Sep-2017 19:24:36 UTC] PHP Stack trace:
+[22-Sep-2017 19:24:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/web/app.php:0
+[22-Sep-2017 19:24:36 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/my_project_name/web/app.php:22
+[22-Sep-2017 19:24:36 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:171
+[22-Sep-2017 19:24:36 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:4446
+[22-Sep-2017 19:24:36 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:4491}() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:4491
+[22-Sep-2017 19:24:36 UTC] PHP   6. AppBundle\Controller\DefaultController->articleGetAction() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:4491
+[22-Sep-2017 21:08:30 UTC] PHP Parse error:  syntax error, unexpected 'newsWithLangAction' (T_STRING) in /home/ubuntu/workspace/my_project_name/src/AppBundle/Controller/DefaultController.php on line 27
+[22-Sep-2017 21:08:30 UTC] PHP Stack trace:
+[22-Sep-2017 21:08:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/my_project_name/web/app.php:0
+[22-Sep-2017 21:08:30 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/my_project_name/web/app.php:22
+[22-Sep-2017 21:08:30 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:168
+[22-Sep-2017 21:08:30 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:119
+[22-Sep-2017 21:08:30 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:540
+[22-Sep-2017 21:08:30 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:3016
+[22-Sep-2017 21:08:30 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/my_project_name/var/cache/dev/classes.php:2966
+[22-Sep-2017 21:08:30 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[22-Sep-2017 21:08:30 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[22-Sep-2017 21:08:30 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[22-Sep-2017 21:08:30 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[22-Sep-2017 21:08:30 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/my_project_name/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100

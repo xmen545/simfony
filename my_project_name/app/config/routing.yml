@@ -1,3 +1,59 @@
+news_list_firs_lang:
+    path: /{lang}/news
+    defaults: { _controller: "AppBundle:Default:newsWithLang", lang: ua  } 
+    requirements:
+        lang: ua|ru|en
+    methods: [GET]
+    
+news_list:
+    path: /news/{lang}
+    defaults: { _controller: "AppBundle:Default:news", lang: ua  } 
+    methods: [GET]
+
+news_article:
+    path: /news/veiw/{articlename}
+    defaults: { _controller: "AppBundle:Default:articleGet" } 
+    methods: [GET]
+
+news_pages_list:
+    path: /news/page/{page}
+    defaults: { _controller: "AppBundle:Default:newsPagesList", page: 1 } 
+    requirements:
+        page: '\d+'
+    methods: [GET]
+        
+        
+    
+newz_sort:
+    path: /newz/page/{page}/sort/{title}/order/{desc}
+    defaults: { _controller: "AppBundle:Default:newsSort", page: 0, title: default, desc: default } 
+    requirements:
+        page: '\d+'
+    methods: [GET]
+    
+newz_sort_2:
+    path: /newz/page/{page}/sort/{title}
+    defaults: { _controller: "AppBundle:Default:newsSort", page: 0, title: default, desc: default } 
+    requirements:
+        page: '\d+'
+    methods: [GET]
+    
+newz_sort_3:
+    path: /newz/page/{page}
+    defaults: { _controller: "AppBundle:Default:newsSort", page: 0, title: default, desc: default } 
+    requirements:
+        page: '\d+'
+    methods: [GET]
+
+
+
+
+
+
+
+
+
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
