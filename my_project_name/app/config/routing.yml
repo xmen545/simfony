@@ -12,7 +12,7 @@ news_list:
 
 news_article:
     path: /news/veiw/{articlename}
-    defaults: { _controller: "AppBundle:Default:articleGet" }    
+    defaults: { _controller: "AppBundle:Default:articleGet" }      
     methods: [GET]
 
 news_pages_list:
